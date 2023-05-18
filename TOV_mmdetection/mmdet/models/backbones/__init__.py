@@ -13,7 +13,7 @@ from .ssd_vgg import SSDVGG
 from .trident_resnet import TridentResNet
 from .unet_model import UNet
 from .vgg import MyVGG
-from .denseclip_models import CLIPResNet, CLIPTextEncoder, CLIPVisionTransformer, CLIPResNetWithAttention
+from .clip_related import CLIPResNet, CLIPTextEncoder, CLIPVisionTransformer, CLIPResNetWithAttention
 
 __all__ = [
     'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SSDVGG', 'HRNet',
