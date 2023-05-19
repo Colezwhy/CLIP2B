@@ -2,7 +2,7 @@ The CLIP2B code is in mmdet/models/detectors/CLIP2B.py
 our GPUs: 2 * RTX3090
 
 # On VOC2007 dataset:
- The CLIP2B model achieves 63.7mAP \
+ The CLIP2B model achieves 63.7mAP on VOC2007 test set, \
  Comparing to 61.2mAP by P2BNet.
 
 
@@ -50,8 +50,8 @@ move annotations/xxx to data/coco/annotations_qc_pt/xxx
 
 
 ### Train 
-```open to the work path: P2BNet/TOV_mmdetection```
-1. P2BNet + FasterRCNN
+```open to the work path: CLIP2B/TOV_mmdetection```
+1. CLIP2B + FasterRCNN
     ```shell script
     # [cmd 0] train CLIP2B and inference on training set with P2BNet
 	work_dir='../TOV_mmdetection_cache/work_dir/coco/' && CUDA_VISIBLE_DEVICES=0,1 PORT=10000 tools/dist_train.sh configs2/COCO/CLIP2B/CLIP2B_r50_fpn_1x_coco_ms.py 2 \
