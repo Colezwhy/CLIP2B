@@ -1,5 +1,5 @@
 The CLIP2B code is in mmdet/models/detectors/CLIP2B.py
-our GUPs: 2 * RTX3090
+our GPUs: 2 * RTX3090
 
 # On VOC2007 dataset:
  The CLIP2B model achieves 63.7mAP \
