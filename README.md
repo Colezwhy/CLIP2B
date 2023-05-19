@@ -4,4 +4,4 @@ The implementation fo CLIP2B, which achieves alignment between CLIP's multi-mode
 ![image](https://github.com/Colezwhy/CLIP2B/blob/main/ppl.png)
 
 # Acknoledgement
-Thanks the authors of P2BNet for their wonderful codebase! \
+Thanks the authors of P2BNet for their wonderful codebase! 
