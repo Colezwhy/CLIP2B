@@ -5,6 +5,9 @@ The implementation fo CLIP2B, which achieves alignment between CLIP's multi-mode
 
 # Acknoledgement
 Thanks the authors of P2BNet for their wonderful codebase! \
+
+# Citing
+
 @inproceedings{P2BNet,
   author    = {Pengfei Chen, Xuehui Yu, Xumeng Han, Najmul Hassan, Kai Wang, Jiachen
 Li, Jian Zhao, Humphrey Shi, Zhenjun Han, and Qixiang Ye},
